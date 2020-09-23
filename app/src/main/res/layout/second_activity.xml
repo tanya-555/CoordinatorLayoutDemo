@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.example.coordinatorlayoutdemo.custombtn.CustomButton
         android:id="@+id/btn"
         android:layout_width="150dp"
         android:layout_height="50dp"

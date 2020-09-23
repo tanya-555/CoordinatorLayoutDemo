@@ -5,19 +5,19 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
 
+import com.example.coordinatorlayoutdemo.custombtn.CustomButton;
 import com.google.android.material.snackbar.Snackbar;
 
 public class SecondActivity extends AppCompatActivity {
 
-    AppCompatButton btn;
+    CustomButton btn;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
-        btn = findViewById(R.id.btn);
+        btn = (CustomButton) findViewById(R.id.btn);
         setListener();
     }
 
